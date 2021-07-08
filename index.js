@@ -13,6 +13,19 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
+app.get('/api/user/tasks', function(req, res) {
+    return res.json({message: "Tasks"})
+});
+
+app.get('/api/plants', function(req, res) {
+    return res.json({message: "Plants"})
+});
+
+app.post('/api/plants/search', function(req, res) {
+    return res.json({message: "Search"})
+});
+
+
 app.listen(3009, function() {
     console.log("Listening on port 3009");
 });
