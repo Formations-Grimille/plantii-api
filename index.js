@@ -19,7 +19,9 @@ app.get('/api/plants', function(req, res) {
 });
 
 app.post('/api/plants/search', function(req, res) {
-    return res.json({message: "Search"})
+    const results = searchPlant(req.body.search);
+
+    return res.json({results});
 });
 
 app.get('/api/user/plants/tasks', function (req, res) {
@@ -34,4 +36,8 @@ app.listen(3009, function() {
 function readDatabase() {
     const raw = fs.readFileSync(path.resolve(__dirname, 'database.json'));
     return JSON.parse(raw);
+}
+
+function searchPlant(haystack) {
+    return database.plants.filter(plant => plant.name.toLowerCase().startsWith(haystack));
 }
