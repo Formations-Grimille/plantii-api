@@ -18,6 +18,22 @@ app.get('/api/plants', function(req, res) {
     return res.json(database.plants);
 });
 
+app.post('/auth/login', (req, res) => {
+    const username = req.body.username;
+    const password = req.body.password;
+    
+    if(username === "admin@plantii.fr" && password === "admin") {// Testing purpose obviously
+        return res.json({
+            success: true,
+            message: "Vous êtes maintenant connectés à Plantii ! 🌱",
+        })
+    }
+    return res.json({
+        success: false,
+        message: "Identifiant ou mot de passe incorrect."
+    });
+}),
+
 app.post('/api/plants/search', function(req, res) {
     const results = searchPlant(req.body.search);
 
