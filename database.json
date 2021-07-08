@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "name": "Acanthocalycium glaucum",
+        "type": "Cactus",
+        "image": "/plants/pics/cactus1.jpeg",
+        "tips": "Exposer régulièrement au soleil, dans une terre légère et sableuse ne retenant pas l'eau.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-08-23"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Acanthocalycium thionanthum",
+        "type": "Cactus",
+        "image": "/plants/pics/cactus2.jpeg",
+        "tips": "Exposer régulièrement au soleil, dans une terre légère et sableuse ne retenant pas l'eau.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-18"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Ariocarpus confusus",
+        "type": "Cactus",
+        "image": "/plants/pics/cactus3.jpeg",
+        "tips": "Exposer régulièrement au soleil, dans une terre légère et sableuse ne retenant pas l'eau.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-18"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Candelabra Cactus",
+        "type": "Cactus",
+        "image": "/plants/pics/cactus4.jpeg",
+        "tips": "Exposer régulièrement au soleil, dans une terre légère et sableuse ne retenant pas l'eau.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-18"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Astrophytum coahuilense",
+        "type": "Cactus",
+        "image": "/plants/pics/cactus5.jpeg",
+        "tips": "Exposer régulièrement au soleil, dans une terre légère et sableuse ne retenant pas l'eau.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-18"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Arrojadoa penicillata",
+        "type": "Cactus",
+        "image": "/plants/pics/cactus6.jpeg",
+        "tips": "Exposer régulièrement au soleil, dans une terre légère et sableuse ne retenant pas l'eau.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-18"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Botrychium florbunda",
+        "type": "Plante d'extérieur",
+        "image": "/plants/pics/flower1.jpeg",
+        "tips": "Arroser régulièrement, suspendre au plafond et surtout laissez tranquille.",
+        "watering": {
+            "period": "2d",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Utricularia simplicior",
+        "type": "Plante d'extérieur",
+        "image": "/plants/pics/flower2.jpeg",
+        "tips": "Ravira petits & grands dans un simple panier en oseille.",
+        "watering": {
+            "period": "2d",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Calochortus obtusa",
+        "type": "Plante grasse",
+        "image": "/plants/pics/flower3.jpeg",
+        "tips": "Arroser très rarement avec une pipette",
+        "watering": {
+            "period": "1m",
+            "last": "2021-07-11"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Pyracantha graveolens",
+        "type": "Plante d'intérieur",
+        "image": "/plants/pics/flower4.jpeg",
+        "tips": "Arroser très rarement avec une pipette",
+        "watering": {
+            "period": "1m",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Thalia karataviense",
+        "type": "Plante d'extérieur",
+        "image": "/plants/pics/flower5.png",
+        "tips": "Arrosage classique, ces fleurs apaiseront votre cœur tourmenté.",
+        "watering": {
+            "period": "3d",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Arctosis coccinea",
+        "type": "Plante d'extérieur",
+        "image": "/plants/pics/flower6.png",
+        "tips": "Classique en décoration dans une cour ou une allée.",
+        "watering": {
+            "period": "3d",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Ilex linifolium",
+        "type": "Plante grasse",
+        "image": "/plants/pics/plant1.jpeg",
+        "tips": "Arrossage recommandé toutes les 2 semaines.",
+        "watering": {
+            "period": "2w",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Monarda tulipifer",
+        "type": "Plante grasse",
+        "image": "/plants/pics/plant2.jpeg",
+        "tips": "Arrossage recommandé toutes les 2 semaines.",
+        "watering": {
+            "period": "2w",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Nassella brevicaulis",
+        "type": "Plante grasse",
+        "image": "/plants/pics/plant3.jpeg",
+        "tips": "Arrossage recommandé toutes les 3 semaines.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Galium fosteri",
+        "type": "Plante grasse",
+        "image": "/plants/pics/plant3.jpeg",
+        "tips": "Arrossage recommandé tous les mois.",
+        "watering": {
+            "period": "1m",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Drosera controversa",
+        "type": "Plante grasse",
+        "image": "/plants/pics/plant4.jpeg",
+        "tips": "Arrossage recommandé toutes les 3 semaines.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-09"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Stylophorum lobata",
+        "type": "Plante grasse",
+        "image": "/plants/pics/plant5.jpeg",
+        "tips": "Arrossage recommandé toutes les 3 semaines.",
+        "watering": {
+            "period": "3w",
+            "last": "2021-07-09"
+        }
+    }
+    
+]

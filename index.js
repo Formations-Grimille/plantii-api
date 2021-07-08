@@ -13,12 +13,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-app.get('/api/user/tasks', function(req, res) {
-    return res.json({message: "Tasks"})
-});
-
 app.get('/api/plants', function(req, res) {
     return res.json({message: "Plants"})
+});
+
+app.get('/api/user/plants/tasks', function (req, res) {
+    return res.json({message: "Tasks"})
 });
 
 app.post('/api/plants/search', function(req, res) {
