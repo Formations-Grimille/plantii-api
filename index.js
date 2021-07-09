@@ -47,7 +47,13 @@ app.post('/api/plants/search', function(req, res) {
 });
 
 app.get('/api/user/plants/tasks', function (req, res) {
-    return res.json(database.tasks);
+    const tasks = database.tasks;
+
+    for(let i = 0; i < tasks.length; i++) {
+        tasks[i].plant = getPlantById(tasks[i].plant);
+    }
+    
+    return res.json(tasks);
 });
 
 
