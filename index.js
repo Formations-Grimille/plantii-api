@@ -18,6 +18,12 @@ app.get('/api/plants', function(req, res) {
     return res.json(database.plants);
 });
 
+app.post('/api/plant', function(req, res) {
+    const plant = getPlantById(req.body.id);
+
+    return res.json({plant});
+});
+
 app.post('/auth/login', (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
@@ -56,4 +62,11 @@ function readDatabase() {
 
 function searchPlant(haystack) {
     return database.plants.filter(plant => plant.name.toLowerCase().startsWith(haystack));
+}
+
+function getPlantById(id) {
+    const idCast = Number.parseInt(id);
+    const results = database.plants.filter(plant => plant.id === idCast);
+
+    return results === null ? null : results[0];
 }
