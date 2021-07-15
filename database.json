@@ -207,7 +207,8 @@
                 "Rempoter dans un pot plus grand.",
                 "Arroser généreusement",
                 "Exposer au soleil"
-            ]
+            ],
+            "done": false
         },
         {
             "id": "19606b84-311c-4022-966a-d8a89978b1ac",
@@ -215,7 +216,8 @@
             "actions": [
                 "Détacher les feuilles mortes.",
                 "Humidifier la terre"
-            ]
+            ],
+            "done": true
         },
         {
             "id": "7eb1f8dc-d81c-413c-b617-574e61193376",
@@ -223,7 +225,8 @@
             "actions": [
                 "Sortir à l'air libre",
                 "Faire des boutures"
-            ]
+            ],
+            "done": false
         }
     ]
 }
