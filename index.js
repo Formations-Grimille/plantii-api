@@ -67,7 +67,7 @@ function readDatabase() {
 }
 
 function searchPlant(haystack) {
-    return database.plants.filter(plant => plant.name.toLowerCase().startsWith(haystack));
+    return database.plants.filter(plant => plant.name.toLowerCase().startsWith(haystack.toLowerCase()));
 }
 
 function getPlantById(id) {
